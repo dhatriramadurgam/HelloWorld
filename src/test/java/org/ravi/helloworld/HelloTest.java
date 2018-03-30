@@ -39,7 +39,7 @@ public class HelloTest {
 	@Test
 	public void f2() {
 
-		Assert.assertEquals(driver.getTitle(), "");
+		Assert.assertEquals(driver.getTitle(), "Dhatri");
 		System.out.println("Test Passed"); 
 
 	}
