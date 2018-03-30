@@ -28,17 +28,25 @@ public class HelloTest {
 	}
 
 	@Test
-	public void f() {
+	public void f1() {
 
-		/* text = driver.findElement(By.xpath("html/body/h2"));
+		text = driver.findElement(By.xpath("html/body/h2"));
+		Assert.assertEquals(text, "Hello World!!");
+		System.out.println("Test Passed"); 
+
+	}
+
+	@Test
+	public void f2() {
+
 		Assert.assertEquals(driver.getTitle(), "");
-		System.out.println("Test Passed"); */
+		System.out.println("Test Passed"); 
 
 	}
 
 	@AfterTest
 	public void afterTest() {
-		//driver.close();
+		driver.close();
 	}
 
 
