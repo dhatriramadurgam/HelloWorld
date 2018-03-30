@@ -27,14 +27,14 @@ public class HelloTest {
 		driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES); 
 	}
 
-	/*@Test
+	@Test
 	public void f1() {
 
 		text = driver.findElement(By.xpath("html/body/h2"));
 		Assert.assertEquals(text, "Hello World!!");
 		System.out.println("Test Passed"); 
 
-	}*/
+	}
 
 	@Test
 	public void f2() {
