@@ -11,6 +11,13 @@
     <finalName>HelloWorld</finalName>
     <pluginManagement>
     <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <configuration>
+                <outputDirectory>U:\JBoss6\server\default\deploy\</outputDirectory>
+            </configuration>
+        </plugin>
     <plugin>
     <groupId>org.codehaus.mojo</groupId>
 	<artifactId>cobertura-maven-plugin</artifactId>
