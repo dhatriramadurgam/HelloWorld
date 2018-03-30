@@ -15,7 +15,7 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
             <configuration>
-                <outputDirectory>U:\JBoss6\server\default\deploy\</outputDirectory>
+                <outputDirectory>C:\Tomcat 7.0\webapps\</outputDirectory>
             </configuration>
         </plugin>
     <plugin>
